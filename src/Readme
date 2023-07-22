@@ -1,0 +1,53 @@
+# ArrayList Implementation
+
+This is a custom implementation of the `ArrayList` class in Java, implementing the `List` interface. The `ArrayList` is a generic class, allowing it to hold elements of any type. Additionally, custom exceptions have been created to handle certain situations, like accessing elements at invalid indices.
+
+## Custom Exceptions
+
+1. `RuntimeException`: This exception is thrown when the user tries to access an element at a negative index.
+
+2. `IndexOutOfBoundsException`: This exception is thrown when the user tries to access an element at an index that is greater than or equal to the size of the list.
+
+## Methods
+
+1. `int capacity()`: Returns the current capacity of the `ArrayList`.
+
+2. `int size()`: Returns the number of elements in the list.
+
+3. `boolean isEmpty()`: Returns `true` if the list is empty, and `false` otherwise.
+
+4. `boolean add(E element)`: Adds the specified element to the end of the list and returns `true` if the operation is successful.
+
+5. `void add(int index, E element)`: Inserts the specified element at the specified index in the list, shifting the subsequent elements to the right.
+
+6. `E get(int index)`: Returns the element at the specified index in the list.
+
+7. `E set(int index, E element)`: Replaces the element at the specified index in the list with the specified element and returns the previous element.
+
+8. `boolean remove(E element)`: Removes the first occurrence of the specified element from the list, if present, and returns `true`. If the element is not found, it returns `false`.
+
+9. `E remove(int index)`: Removes the element at the specified index from the list and returns the removed element.
+
+10. `boolean contains(E element)`: Returns `true` if the list contains the specified element, and `false` otherwise.
+
+11. `int indexOf(E element)`: Returns the index of the first occurrence of the specified element in the list, or -1 if the element is not found.
+
+12. `int lastIndexOf(E element)`: Returns the index of the last occurrence of the specified element in the list, or -1 if the element is not found.
+
+13. `void clear()`: Removes all elements from the list.
+
+14. `E[] toArray()`: Returns an array containing all the elements in the list.
+
+15. `<T> T[] toArray(T[] array)`: Returns an array containing all the elements in the list, using the provided array if it is large enough. Otherwise, a new array of the same runtime type is allocated.
+
+16. `List<E> subList(int fromIndex, int toIndex)`: Returns a new list that is a view of the portion of the original list between the specified `fromIndex` (inclusive) and `toIndex` (exclusive).
+
+## GitHub Repository
+
+The implementation of the `myArrayList` class can be found in the following GitHub repository:
+
+[Link to myArrayList GitHub Repository](https://github.com/your-username/your-repository-name)
+
+Replace `your-username` and `your-repository-name` with your GitHub username and the repository name where you've uploaded the `myArrayList` implementation.
+
+Please feel free to clone the repository, test the implementation, and provide feedback or suggestions for improvement. Thank you!
