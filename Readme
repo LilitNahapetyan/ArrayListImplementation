@@ -42,12 +42,3 @@ This is a custom implementation of the `ArrayList` class in Java, implementing t
 
 16. `List<E> subList(int fromIndex, int toIndex)`: Returns a new list that is a view of the portion of the original list between the specified `fromIndex` (inclusive) and `toIndex` (exclusive).
 
-## GitHub Repository
-
-The implementation of the `myArrayList` class can be found in the following GitHub repository:
-
-[Link to myArrayList GitHub Repository](https://github.com/your-username/your-repository-name)
-
-Replace `your-username` and `your-repository-name` with your GitHub username and the repository name where you've uploaded the `myArrayList` implementation.
-
-Please feel free to clone the repository, test the implementation, and provide feedback or suggestions for improvement. Thank you!
